@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>232834685037-mddodm32jvoqbneog872qh59uivi00q6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.232834685037-mddodm32jvoqbneog872qh59uivi00q6</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>232834685037-plot9v4mdckh8k3e9dpoundk6fv2083d.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyANslWFK8hOwRi982cXJkI4Xv85lyS_6ec</string>
+	<key>GCM_SENDER_ID</key>
+	<string>232834685037</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.saurabh8299.Bookshelf</string>
+	<key>PROJECT_ID</key>
+	<string>bookshelf-ca616</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bookshelf-ca616.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:232834685037:ios:8e964661b174e76344c764</string>
+</dict>
+</plist>
