@@ -25,12 +25,18 @@ const SearchData = (props: PropsWithStore<PropsWithChildren>) => {
         }
         style={{ marginVertical: 12 }}
       >
-        <Card
-          image_URL={item.volumeInfo.imageLinks.thumbnail}
-          title={item.volumeInfo.title}
-          description={item.volumeInfo.description}
-          loading={searchStore.isLoading}
-        />
+        {item ? (
+          <Card
+            image_URL={
+              item.volumeInfo.imageLinks
+                ? item.volumeInfo.imageLinks.thumbnail
+                : ""
+            }
+            title={item.volumeInfo.title}
+            description={item.volumeInfo.description}
+            loading={searchStore.isLoading}
+          />
+        ) : null}
       </TouchableOpacity>
     );
   };
