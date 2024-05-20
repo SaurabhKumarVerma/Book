@@ -33,6 +33,7 @@ const Detail = () => {
         <Animated.Text
           style={{ opacity: 0.4 }}
           entering={FadeInRight.delay(1000)}
+          numberOfLines={1}
         >
           {item}
         </Animated.Text>
