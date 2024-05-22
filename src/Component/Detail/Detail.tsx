@@ -58,15 +58,11 @@ const Detail = () => {
     }
   };
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <View style={{ flex: 1 }}>
       <Animated.ScrollView
-        style={{ backgroundColor: "#E5E5E5", flex: 1 }}
+        style={{ backgroundColor: "#E5E5E5", flex: 1, position: "relative" }}
         showsVerticalScrollIndicator={false}
       >
-        <View style={{}}>
-          <Header />
-        </View>
-
         <View>
           <View style={styles.container}>
             <Animated.Image
@@ -149,7 +145,7 @@ const Detail = () => {
           </Animated.View>
         </View>
       </Animated.ScrollView>
-    </SafeAreaView>
+    </View>
   );
 };
 

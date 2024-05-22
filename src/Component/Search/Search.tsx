@@ -5,7 +5,7 @@ import { TextInput } from "react-native-gesture-handler";
 import { inject, observer } from "mobx-react";
 import { PropsWithStore } from "../../Store/RootStore";
 import SearchData from "./SearchData";
-import Header from "../Detail/Header";
+import Header from "./Header";
 
 const Search = (props: PropsWithStore<PropsWithChildren>) => {
   const { searchStore } = props.rootStore;
@@ -21,8 +21,8 @@ const Search = (props: PropsWithStore<PropsWithChildren>) => {
   }, []);
 
   return (
-    <View style={{}}>
-      <View style={{ marginVertical: 26 }}>
+    <View >
+      <View style={{}}>
         <Header />
       </View>
       <View style={styles.inputBoxContainer}>
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     borderWidth: 1,
     // width: "90%",
-    marginTop: 50,
+    // marginTop: 50,
     borderRadius: 10,
     // paddingHorizontal: 10,
     marginHorizontal: 16,

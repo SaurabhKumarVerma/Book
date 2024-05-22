@@ -985,9 +985,6 @@ PODS:
     - React-debug
   - react-native-safe-area-context (4.8.2):
     - React-Core
-  - react-native-twitter-signin (1.2.0):
-    - React
-    - TwitterKit5
   - React-nativeconfig (0.73.6)
   - React-NativeModulesApple (0.73.6):
     - glog
@@ -1194,9 +1191,6 @@ PODS:
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
   - SocketRocket (0.6.1)
-  - TwitterCore (3.2.0)
-  - TwitterKit5 (5.2.0):
-    - TwitterCore (>= 3.1.0)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -1240,7 +1234,6 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
-  - "react-native-twitter-signin (from `../node_modules/@react-native-twitter-signin/twitter-signin`)"
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -1293,8 +1286,6 @@ SPEC REPOS:
     - SDWebImage
     - SDWebImageWebPCoder
     - SocketRocket
-    - TwitterCore
-    - TwitterKit5
 
 EXTERNAL SOURCES:
   boost:
@@ -1372,8 +1363,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
-  react-native-twitter-signin:
-    :path: "../node_modules/@react-native-twitter-signin/twitter-signin"
   React-nativeconfig:
     :path: "../node_modules/react-native/ReactCommon"
   React-NativeModulesApple:
@@ -1488,7 +1477,6 @@ SPEC CHECKSUMS:
   React-logger: 3eb80a977f0d9669468ef641a5e1fabbc50a09ec
   React-Mapbuffer: d81d930c1b7f4db284e1d721fe7fdc99230ca108
   react-native-safe-area-context: 0ee144a6170530ccc37a0fd9388e28d06f516a89
-  react-native-twitter-signin: 423e8d20eb26fddc14852d3f1435a8b39358f49d
   React-nativeconfig: e700ac3ec3d66329076bd2c2787a204411815d43
   React-NativeModulesApple: f7fa541118d195ac850ca2ea460f338152ced167
   React-perflogger: 5f49905de275bac07ac7ea7f575a70611fa988f2
@@ -1522,8 +1510,6 @@ SPEC CHECKSUMS:
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: 908b83b6adda48effe7667cd2b7f78c897e5111d
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
-  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
-  TwitterKit5: 64095dfefcf39be2355711ef27112d55e340d90e
   Yoga: 805bf71192903b20fc14babe48080582fee65a80
 
 PODFILE CHECKSUM: a12b732561c2955ec12df82931ae9317d2ad6dbf

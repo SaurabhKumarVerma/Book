@@ -22,6 +22,7 @@ const Home = (props: PropsWithStore<PropsWithChildren>) => {
 
   useEffect(() => {
     bookStore.getAllBooks();
+    authStore.getUserToken();
   }, []);
 
   const renderItem = (item: IItems) => {
@@ -66,13 +67,17 @@ const Home = (props: PropsWithStore<PropsWithChildren>) => {
         }}
       >
         <AutoImage
-          source={{ uri: authStore.userProfile.user.photo }}
+          source={{
+            uri: authStore.userProfile ? authStore.userProfile.user.photo : "",
+          }}
           maxHeight={50}
           maxWidth={50}
           style={{ borderRadius: 25 }}
         />
         <Text style={{ fontSize: 16, fontWeight: "700" }}>
-          {authStore.userProfile.user.givenName.toUpperCase()}
+          {authStore.userProfile
+            ? authStore.userProfile.user.givenName.toUpperCase()
+            : "s"}
         </Text>
       </View>
       <View style={{}}>

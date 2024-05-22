@@ -1,6 +1,5 @@
 #import "AppDelegate.h"
 #import <Firebase/Firebase.h>
-#import <TwitterKit/TWTRKit.h>
 
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTLinkingManager.h>
@@ -40,7 +39,7 @@
 //    if ([[url scheme] hasPrefix:@"twitter"] == YES) {
 //  NSObject handled  = /*[[Twitter sharedInstance] application:application openURL:url options:options]*/;
 //    };
-  return [super application:application openURL:url options:options] || [RCTLinkingManager application:application openURL:url options:options] || [[Twitter sharedInstance] application:application openURL:url options:options];
+  return [super application:application openURL:url options:options] || [RCTLinkingManager application:application openURL:url options:options];
 }
 
 // Universal Links

@@ -31,7 +31,7 @@ const Login = (props: PropsWithStore<PropsWithChildren>) => {
       idToken.idToken
     );
 
-    authStore.saveUserToken(idToken as ITokenData);
+    await authStore.saveUserToken(idToken as ITokenData);
     return auth().signInWithCredential(googleCredential);
   }
   return (
